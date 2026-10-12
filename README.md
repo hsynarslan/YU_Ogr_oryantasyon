@@ -20,7 +20,9 @@ npm start   # http://localhost:8080
 npm test    # adım akışı testleri
 ```
 
-Klasör herhangi bir statik sunucuda (ör. GitHub Pages) da yayınlanabilir.
+## Yayın (GitHub Pages)
+
+`main` dalına her gönderimde testler çalışır ve uygulama GitHub Pages'e yayınlanır (`.github/workflows/pages.yml`). İlk kurulumda depo ayarlarında **Settings → Pages → Build and deployment → Source** alanını **GitHub Actions** yapmak gerekir.
 
 ## Yapı
 

@@ -1,0 +1,11 @@
+{
+  "name": "yu-ogr-oryantasyon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Yaşar Üniversitesi yeni öğrenci oryantasyon uygulaması",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
